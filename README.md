@@ -2,6 +2,7 @@
 Assembly Brainfuck Interpreter
 
 
+'''
 from scapy.all import *
 
 # Liste von Datenpaketen, die verschiedene Funktionen eines IoT-Geräts widerspiegeln
@@ -33,3 +34,5 @@ for packet_combination in itertools.product(data_packets, repeat=len(data_packet
     # Hier können Sie weitere Aktionen oder Überprüfungen hinzufügen, um die Ergebnisse zu analysieren
 
 # Schließen Sie das Programm ordnungsgemäß
+
+'''
